@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: nba_data
+    schema: GOOGLE_SHEETS
+    tables:
+      - name: nba_stats_table
+        identifier: NBA_STATS_RAW
